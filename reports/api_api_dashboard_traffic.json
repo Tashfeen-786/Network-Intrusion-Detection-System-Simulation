@@ -1,0 +1,95 @@
+{
+  "timeline": [
+    {
+      "bucket": "2026-09-29T17:34",
+      "flows": 152,
+      "packets_per_second": 24135.413925645793,
+      "bytes_per_second": 28161705.025047973,
+      "connections": 3923.0,
+      "failed_connections": 253.0,
+      "average_risk": 23.305131578947368
+    }
+  ],
+  "protocol_distribution": [
+    {
+      "label": "TCP",
+      "value": 134
+    },
+    {
+      "label": "UDP",
+      "value": 18
+    }
+  ],
+  "port_distribution": [
+    {
+      "label": 443,
+      "value": 46
+    },
+    {
+      "label": 22,
+      "value": 30
+    },
+    {
+      "label": 53,
+      "value": 18
+    },
+    {
+      "label": 5432,
+      "value": 15
+    },
+    {
+      "label": 587,
+      "value": 7
+    },
+    {
+      "label": 3306,
+      "value": 6
+    },
+    {
+      "label": 25,
+      "value": 6
+    },
+    {
+      "label": 5555,
+      "value": 5
+    },
+    {
+      "label": 993,
+      "value": 4
+    },
+    {
+      "label": 4444,
+      "value": 3
+    },
+    {
+      "label": 465,
+      "value": 3
+    },
+    {
+      "label": 80,
+      "value": 2
+    }
+  ],
+  "classification_distribution": [
+    {
+      "label": "CRITICAL INVESTIGATION",
+      "value": 22
+    },
+    {
+      "label": "HIGH RISK",
+      "value": 10
+    },
+    {
+      "label": "LOW RISK",
+      "value": 7
+    },
+    {
+      "label": "NORMAL",
+      "value": 109
+    },
+    {
+      "label": "SUSPICIOUS",
+      "value": 4
+    }
+  ]
+}

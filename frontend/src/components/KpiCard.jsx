@@ -1,0 +1,1 @@
+export default function KpiCard({label,value,tone='teal',detail}){return <div className={`kpi ${tone}`}><div className="kpi-top"><span>{label}</span><i/></div><strong>{Number(value||0).toLocaleString(undefined,{maximumFractionDigits:1})}</strong><small>{detail}</small></div>}

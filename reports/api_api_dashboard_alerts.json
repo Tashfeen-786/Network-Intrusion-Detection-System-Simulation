@@ -1,0 +1,113 @@
+{
+  "severity_distribution": [
+    {
+      "label": "CRITICAL",
+      "value": 22
+    },
+    {
+      "label": "HIGH",
+      "value": 10
+    },
+    {
+      "label": "LOW",
+      "value": 6
+    },
+    {
+      "label": "MEDIUM",
+      "value": 4
+    }
+  ],
+  "top_alert_types": [
+    {
+      "label": "High Connection Rate",
+      "value": 14
+    },
+    {
+      "label": "Unusual Service-Port Activity",
+      "value": 10
+    },
+    {
+      "label": "Repeated Failed Connections",
+      "value": 9
+    },
+    {
+      "label": "Multi-Port Probing-Like Pattern",
+      "value": 5
+    },
+    {
+      "label": "Abnormally High Traffic Volume",
+      "value": 3
+    },
+    {
+      "label": "SYN-Heavy Statistical Pattern",
+      "value": 1
+    }
+  ],
+  "top_sources": [
+    {
+      "label": "192.0.2.116",
+      "value": 1
+    },
+    {
+      "label": "192.0.2.117",
+      "value": 1
+    },
+    {
+      "label": "192.0.2.134",
+      "value": 1
+    },
+    {
+      "label": "192.0.2.136",
+      "value": 1
+    },
+    {
+      "label": "192.0.2.137",
+      "value": 1
+    },
+    {
+      "label": "192.0.2.139",
+      "value": 1
+    },
+    {
+      "label": "192.0.2.146",
+      "value": 1
+    },
+    {
+      "label": "192.0.2.15",
+      "value": 1
+    },
+    {
+      "label": "192.0.2.155",
+      "value": 1
+    },
+    {
+      "label": "192.0.2.158",
+      "value": 1
+    }
+  ],
+  "risk_distribution": [
+    {
+      "label": "21-40",
+      "value": 6
+    },
+    {
+      "label": "41-60",
+      "value": 4
+    },
+    {
+      "label": "61-80",
+      "value": 10
+    },
+    {
+      "label": "81-100",
+      "value": 22
+    }
+  ],
+  "timeline": [
+    {
+      "bucket": "2026-09-29T17:34",
+      "alerts": 42,
+      "average_risk": 72.26261904761905
+    }
+  ]
+}

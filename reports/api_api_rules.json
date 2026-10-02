@@ -1,0 +1,81 @@
+{
+  "items": [
+    {
+      "rule_id": "IDS-001",
+      "rule_name": "High Connection Rate",
+      "description": "Connection rate exceeded the configured baseline.",
+      "severity": "HIGH",
+      "threshold": 25.0,
+      "enabled": true,
+      "updated_at": "2026-09-29T17:33:30.133250+00:00"
+    },
+    {
+      "rule_id": "IDS-002",
+      "rule_name": "Repeated Failed Connections",
+      "description": "Repeated failed connection records require authentication and firewall-log review.",
+      "severity": "HIGH",
+      "threshold": 12.0,
+      "enabled": true,
+      "updated_at": "2026-09-29T17:33:30.133508+00:00"
+    },
+    {
+      "rule_id": "IDS-003",
+      "rule_name": "Multi-Port Probing-Like Pattern",
+      "description": "One synthetic source contacted an unusually large number of destination ports.",
+      "severity": "HIGH",
+      "threshold": 20.0,
+      "enabled": true,
+      "updated_at": "2026-09-29T17:33:30.133530+00:00"
+    },
+    {
+      "rule_id": "IDS-004",
+      "rule_name": "SYN-Heavy Statistical Pattern",
+      "description": "SYN ratio and SYN count are unusually high for a flow record.",
+      "severity": "CRITICAL",
+      "threshold": 0.75,
+      "enabled": true,
+      "updated_at": "2026-09-29T17:33:30.133540+00:00"
+    },
+    {
+      "rule_id": "IDS-005",
+      "rule_name": "Unusual Service-Port Activity",
+      "description": "Traffic used a service port outside the documented allow-list for this simulation.",
+      "severity": "MEDIUM",
+      "threshold": [
+        22,
+        25,
+        53,
+        80,
+        110,
+        143,
+        443,
+        465,
+        587,
+        993,
+        995,
+        3306,
+        5432
+      ],
+      "enabled": true,
+      "updated_at": "2026-09-29T17:33:30.133554+00:00"
+    },
+    {
+      "rule_id": "IDS-006",
+      "rule_name": "Abnormally High Traffic Volume",
+      "description": "Byte volume exceeded the configured per-flow threshold.",
+      "severity": "HIGH",
+      "threshold": 5000000.0,
+      "enabled": true,
+      "updated_at": "2026-09-29T17:33:30.133562+00:00"
+    },
+    {
+      "rule_id": "IDS-007",
+      "rule_name": "High DNS Query Rate",
+      "description": "Synthetic UDP/53 query-rate statistics exceeded the baseline; this is not proof of DNS tunneling.",
+      "severity": "MEDIUM",
+      "threshold": 40.0,
+      "enabled": true,
+      "updated_at": "2026-09-29T17:33:30.133569+00:00"
+    }
+  ]
+}

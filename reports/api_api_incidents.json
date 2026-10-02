@@ -1,0 +1,550 @@
+{
+  "items": [
+    {
+      "incident_id": "INC-00001",
+      "source_ip": "192.0.2.134",
+      "alert_type": "High Connection Rate",
+      "first_seen": "2026-09-29T17:34:15.589373+00:00",
+      "last_seen": "2026-09-29T17:34:15.589373+00:00",
+      "alert_ids": [
+        "ALT-467ED70AD0"
+      ],
+      "alert_count": 1,
+      "max_risk": 86.04,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00002",
+      "source_ip": "192.0.2.9",
+      "alert_type": "Unusual Service-Port Activity",
+      "first_seen": "2026-09-29T17:34:17.234955+00:00",
+      "last_seen": "2026-09-29T17:34:17.234955+00:00",
+      "alert_ids": [
+        "ALT-607A4165FF"
+      ],
+      "alert_count": 1,
+      "max_risk": 60.7,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00003",
+      "source_ip": "192.0.2.136",
+      "alert_type": "Repeated Failed Connections",
+      "first_seen": "2026-09-29T17:34:17.440941+00:00",
+      "last_seen": "2026-09-29T17:34:17.440941+00:00",
+      "alert_ids": [
+        "ALT-6E28A16633"
+      ],
+      "alert_count": 1,
+      "max_risk": 79.9,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00004",
+      "source_ip": "192.0.2.146",
+      "alert_type": "Unusual Service-Port Activity",
+      "first_seen": "2026-09-29T17:34:18.269424+00:00",
+      "last_seen": "2026-09-29T17:34:18.269424+00:00",
+      "alert_ids": [
+        "ALT-C6DA117AE7"
+      ],
+      "alert_count": 1,
+      "max_risk": 24.05,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00005",
+      "source_ip": "192.0.2.66",
+      "alert_type": "Repeated Failed Connections",
+      "first_seen": "2026-09-29T17:34:18.690338+00:00",
+      "last_seen": "2026-09-29T17:34:18.690338+00:00",
+      "alert_ids": [
+        "ALT-13CEC23702"
+      ],
+      "alert_count": 1,
+      "max_risk": 79.99,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00006",
+      "source_ip": "192.0.2.190",
+      "alert_type": "Repeated Failed Connections",
+      "first_seen": "2026-09-29T17:34:21.186171+00:00",
+      "last_seen": "2026-09-29T17:34:21.186171+00:00",
+      "alert_ids": [
+        "ALT-464C6190B4"
+      ],
+      "alert_count": 1,
+      "max_risk": 79.88,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00007",
+      "source_ip": "192.0.2.185",
+      "alert_type": "Unusual Service-Port Activity",
+      "first_seen": "2026-09-29T17:34:21.821081+00:00",
+      "last_seen": "2026-09-29T17:34:21.821081+00:00",
+      "alert_ids": [
+        "ALT-705E5F3125"
+      ],
+      "alert_count": 1,
+      "max_risk": 53.81,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00008",
+      "source_ip": "192.0.2.224",
+      "alert_type": "High Connection Rate",
+      "first_seen": "2026-09-29T17:34:22.254454+00:00",
+      "last_seen": "2026-09-29T17:34:22.254454+00:00",
+      "alert_ids": [
+        "ALT-D5B701CC67"
+      ],
+      "alert_count": 1,
+      "max_risk": 83.35,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00009",
+      "source_ip": "192.0.2.22",
+      "alert_type": "Unusual Service-Port Activity",
+      "first_seen": "2026-09-29T17:34:22.462651+00:00",
+      "last_seen": "2026-09-29T17:34:22.462651+00:00",
+      "alert_ids": [
+        "ALT-30661B0D7F"
+      ],
+      "alert_count": 1,
+      "max_risk": 24.85,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00010",
+      "source_ip": "192.0.2.216",
+      "alert_type": "Multi-Port Probing-Like Pattern",
+      "first_seen": "2026-09-29T17:34:23.090192+00:00",
+      "last_seen": "2026-09-29T17:34:23.090192+00:00",
+      "alert_ids": [
+        "ALT-4A9A539124"
+      ],
+      "alert_count": 1,
+      "max_risk": 84.62,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00011",
+      "source_ip": "192.0.2.5",
+      "alert_type": "Multi-Port Probing-Like Pattern",
+      "first_seen": "2026-09-29T17:34:23.906292+00:00",
+      "last_seen": "2026-09-29T17:34:23.906292+00:00",
+      "alert_ids": [
+        "ALT-512F8D10A8"
+      ],
+      "alert_count": 1,
+      "max_risk": 82.61,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00012",
+      "source_ip": "192.0.2.173",
+      "alert_type": "Repeated Failed Connections",
+      "first_seen": "2026-09-29T17:34:24.122858+00:00",
+      "last_seen": "2026-09-29T17:34:24.122858+00:00",
+      "alert_ids": [
+        "ALT-0683C7D724"
+      ],
+      "alert_count": 1,
+      "max_risk": 79.94,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00013",
+      "source_ip": "192.0.2.170",
+      "alert_type": "High Connection Rate",
+      "first_seen": "2026-09-29T17:34:24.340697+00:00",
+      "last_seen": "2026-09-29T17:34:24.340697+00:00",
+      "alert_ids": [
+        "ALT-DFE446973C"
+      ],
+      "alert_count": 1,
+      "max_risk": 97.05,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00014",
+      "source_ip": "192.0.2.158",
+      "alert_type": "High Connection Rate",
+      "first_seen": "2026-09-29T17:34:25.387392+00:00",
+      "last_seen": "2026-09-29T17:34:25.387392+00:00",
+      "alert_ids": [
+        "ALT-0987D67D65"
+      ],
+      "alert_count": 1,
+      "max_risk": 97.51,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00015",
+      "source_ip": "192.0.2.77",
+      "alert_type": "Multi-Port Probing-Like Pattern",
+      "first_seen": "2026-09-29T17:34:25.592929+00:00",
+      "last_seen": "2026-09-29T17:34:25.592929+00:00",
+      "alert_ids": [
+        "ALT-B59F478534"
+      ],
+      "alert_count": 1,
+      "max_risk": 90.14,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00016",
+      "source_ip": "192.0.2.57",
+      "alert_type": "High Connection Rate",
+      "first_seen": "2026-09-29T17:34:25.808636+00:00",
+      "last_seen": "2026-09-29T17:34:25.808636+00:00",
+      "alert_ids": [
+        "ALT-EC31EF7C42"
+      ],
+      "alert_count": 1,
+      "max_risk": 89.1,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00017",
+      "source_ip": "192.0.2.69",
+      "alert_type": "Abnormally High Traffic Volume",
+      "first_seen": "2026-09-29T17:34:26.862408+00:00",
+      "last_seen": "2026-09-29T17:34:26.862408+00:00",
+      "alert_ids": [
+        "ALT-49C16DB6C5"
+      ],
+      "alert_count": 1,
+      "max_risk": 87.38,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00018",
+      "source_ip": "192.0.2.184",
+      "alert_type": "Repeated Failed Connections",
+      "first_seen": "2026-09-29T17:34:27.891377+00:00",
+      "last_seen": "2026-09-29T17:34:27.891377+00:00",
+      "alert_ids": [
+        "ALT-F75B40FDA8"
+      ],
+      "alert_count": 1,
+      "max_risk": 80.39,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00019",
+      "source_ip": "192.0.2.197",
+      "alert_type": "Multi-Port Probing-Like Pattern",
+      "first_seen": "2026-09-29T17:34:28.300062+00:00",
+      "last_seen": "2026-09-29T17:34:28.300062+00:00",
+      "alert_ids": [
+        "ALT-8376E870B3"
+      ],
+      "alert_count": 1,
+      "max_risk": 82.5,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00020",
+      "source_ip": "192.0.2.250",
+      "alert_type": "SYN-Heavy Statistical Pattern",
+      "first_seen": "2026-09-29T17:34:28.505129+00:00",
+      "last_seen": "2026-09-29T17:34:28.505129+00:00",
+      "alert_ids": [
+        "ALT-FEB8487894"
+      ],
+      "alert_count": 1,
+      "max_risk": 78.54,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00021",
+      "source_ip": "192.0.2.231",
+      "alert_type": "Unusual Service-Port Activity",
+      "first_seen": "2026-09-29T17:34:28.711238+00:00",
+      "last_seen": "2026-09-29T17:34:28.711238+00:00",
+      "alert_ids": [
+        "ALT-68560915B5"
+      ],
+      "alert_count": 1,
+      "max_risk": 24.24,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00022",
+      "source_ip": "192.0.2.175",
+      "alert_type": "High Connection Rate",
+      "first_seen": "2026-09-29T17:34:29.927929+00:00",
+      "last_seen": "2026-09-29T17:34:29.927929+00:00",
+      "alert_ids": [
+        "ALT-94BC93E162"
+      ],
+      "alert_count": 1,
+      "max_risk": 88.57,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00023",
+      "source_ip": "192.0.2.63",
+      "alert_type": "Unusual Service-Port Activity",
+      "first_seen": "2026-09-29T17:34:30.131969+00:00",
+      "last_seen": "2026-09-29T17:34:30.131969+00:00",
+      "alert_ids": [
+        "ALT-0617A69B2F"
+      ],
+      "alert_count": 1,
+      "max_risk": 50.29,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00024",
+      "source_ip": "192.0.2.137",
+      "alert_type": "High Connection Rate",
+      "first_seen": "2026-09-29T17:34:31.794475+00:00",
+      "last_seen": "2026-09-29T17:34:31.794475+00:00",
+      "alert_ids": [
+        "ALT-93E323572B"
+      ],
+      "alert_count": 1,
+      "max_risk": 89.32,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00025",
+      "source_ip": "192.0.2.117",
+      "alert_type": "Unusual Service-Port Activity",
+      "first_seen": "2026-09-29T17:34:35.079262+00:00",
+      "last_seen": "2026-09-29T17:34:35.079262+00:00",
+      "alert_ids": [
+        "ALT-8BB52F4997"
+      ],
+      "alert_count": 1,
+      "max_risk": 25.25,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00026",
+      "source_ip": "192.0.2.7",
+      "alert_type": "Unusual Service-Port Activity",
+      "first_seen": "2026-09-29T17:34:35.486120+00:00",
+      "last_seen": "2026-09-29T17:34:35.486120+00:00",
+      "alert_ids": [
+        "ALT-400BA8DD1D"
+      ],
+      "alert_count": 1,
+      "max_risk": 24.49,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00027",
+      "source_ip": "192.0.2.139",
+      "alert_type": "Abnormally High Traffic Volume",
+      "first_seen": "2026-09-29T17:34:37.605661+00:00",
+      "last_seen": "2026-09-29T17:34:37.605661+00:00",
+      "alert_ids": [
+        "ALT-9108E5E0DA"
+      ],
+      "alert_count": 1,
+      "max_risk": 87.34,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00028",
+      "source_ip": "192.0.2.179",
+      "alert_type": "High Connection Rate",
+      "first_seen": "2026-09-29T17:34:39.242541+00:00",
+      "last_seen": "2026-09-29T17:34:39.242541+00:00",
+      "alert_ids": [
+        "ALT-BA078E93E1"
+      ],
+      "alert_count": 1,
+      "max_risk": 81.14,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00029",
+      "source_ip": "192.0.2.84",
+      "alert_type": "Repeated Failed Connections",
+      "first_seen": "2026-09-29T17:34:39.458436+00:00",
+      "last_seen": "2026-09-29T17:34:39.458436+00:00",
+      "alert_ids": [
+        "ALT-DDAFF99C45"
+      ],
+      "alert_count": 1,
+      "max_risk": 79.24,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00030",
+      "source_ip": "192.0.2.206",
+      "alert_type": "High Connection Rate",
+      "first_seen": "2026-09-29T17:34:39.666679+00:00",
+      "last_seen": "2026-09-29T17:34:39.666679+00:00",
+      "alert_ids": [
+        "ALT-06A4DA7784"
+      ],
+      "alert_count": 1,
+      "max_risk": 84.65,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00031",
+      "source_ip": "192.0.2.81",
+      "alert_type": "High Connection Rate",
+      "first_seen": "2026-09-29T17:34:39.872167+00:00",
+      "last_seen": "2026-09-29T17:34:39.872167+00:00",
+      "alert_ids": [
+        "ALT-5B4AE00111"
+      ],
+      "alert_count": 1,
+      "max_risk": 88.59,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00032",
+      "source_ip": "192.0.2.116",
+      "alert_type": "High Connection Rate",
+      "first_seen": "2026-09-29T17:34:40.088646+00:00",
+      "last_seen": "2026-09-29T17:34:40.088646+00:00",
+      "alert_ids": [
+        "ALT-733F0365BF"
+      ],
+      "alert_count": 1,
+      "max_risk": 88.37,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00033",
+      "source_ip": "192.0.2.155",
+      "alert_type": "Repeated Failed Connections",
+      "first_seen": "2026-09-29T17:34:40.928150+00:00",
+      "last_seen": "2026-09-29T17:34:40.928150+00:00",
+      "alert_ids": [
+        "ALT-78566D1ECA"
+      ],
+      "alert_count": 1,
+      "max_risk": 79.28,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00034",
+      "source_ip": "192.0.2.31",
+      "alert_type": "Repeated Failed Connections",
+      "first_seen": "2026-09-29T17:34:41.792034+00:00",
+      "last_seen": "2026-09-29T17:34:41.792034+00:00",
+      "alert_ids": [
+        "ALT-034C3C3F77"
+      ],
+      "alert_count": 1,
+      "max_risk": 79.17,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00035",
+      "source_ip": "192.0.2.252",
+      "alert_type": "Unusual Service-Port Activity",
+      "first_seen": "2026-09-29T17:34:41.997324+00:00",
+      "last_seen": "2026-09-29T17:34:41.997324+00:00",
+      "alert_ids": [
+        "ALT-B6934A73F6"
+      ],
+      "alert_count": 1,
+      "max_risk": 21.44,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00036",
+      "source_ip": "192.0.2.42",
+      "alert_type": "Repeated Failed Connections",
+      "first_seen": "2026-09-29T17:34:42.213778+00:00",
+      "last_seen": "2026-09-29T17:34:42.213778+00:00",
+      "alert_ids": [
+        "ALT-45CA579117"
+      ],
+      "alert_count": 1,
+      "max_risk": 79.19,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00037",
+      "source_ip": "192.0.2.55",
+      "alert_type": "High Connection Rate",
+      "first_seen": "2026-09-29T17:34:43.053469+00:00",
+      "last_seen": "2026-09-29T17:34:43.053469+00:00",
+      "alert_ids": [
+        "ALT-35D17746FB"
+      ],
+      "alert_count": 1,
+      "max_risk": 41.06,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00038",
+      "source_ip": "192.0.2.50",
+      "alert_type": "High Connection Rate",
+      "first_seen": "2026-09-29T17:34:43.474384+00:00",
+      "last_seen": "2026-09-29T17:34:43.474384+00:00",
+      "alert_ids": [
+        "ALT-03B88AA45D"
+      ],
+      "alert_count": 1,
+      "max_risk": 89.1,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00039",
+      "source_ip": "192.0.2.48",
+      "alert_type": "Abnormally High Traffic Volume",
+      "first_seen": "2026-09-29T17:34:44.520059+00:00",
+      "last_seen": "2026-09-29T17:34:44.520059+00:00",
+      "alert_ids": [
+        "ALT-AF21B69ABF"
+      ],
+      "alert_count": 1,
+      "max_risk": 87.32,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00040",
+      "source_ip": "192.0.2.233",
+      "alert_type": "Multi-Port Probing-Like Pattern",
+      "first_seen": "2026-09-29T17:34:44.736839+00:00",
+      "last_seen": "2026-09-29T17:34:44.736839+00:00",
+      "alert_ids": [
+        "ALT-2B22D3EA9E"
+      ],
+      "alert_count": 1,
+      "max_risk": 80.97,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00041",
+      "source_ip": "192.0.2.230",
+      "alert_type": "Unusual Service-Port Activity",
+      "first_seen": "2026-09-29T17:34:44.943144+00:00",
+      "last_seen": "2026-09-29T17:34:44.943144+00:00",
+      "alert_ids": [
+        "ALT-C55678767B"
+      ],
+      "alert_count": 1,
+      "max_risk": 50.59,
+      "status": "NEW"
+    },
+    {
+      "incident_id": "INC-00042",
+      "source_ip": "192.0.2.15",
+      "alert_type": "High Connection Rate",
+      "first_seen": "2026-09-29T17:34:45.130591+00:00",
+      "last_seen": "2026-09-29T17:34:45.130591+00:00",
+      "alert_ids": [
+        "ALT-E07AC4A1EF"
+      ],
+      "alert_count": 1,
+      "max_risk": 93.07,
+      "status": "NEW"
+    }
+  ]
+}

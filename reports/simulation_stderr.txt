@@ -1,0 +1,1 @@
+SAFE MODE: generating statistical flow data only; no packets are sent.

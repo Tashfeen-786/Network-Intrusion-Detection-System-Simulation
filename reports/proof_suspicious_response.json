@@ -1,0 +1,128 @@
+{
+  "flow_id": "PROOF-SUSPICIOUS-001",
+  "classification": "CRITICAL INVESTIGATION",
+  "severity": "CRITICAL",
+  "risk_score": 93.07,
+  "features": {
+    "packet_count": 800.0,
+    "byte_count": 900000.0,
+    "duration": 2.0,
+    "bytes_per_second": 450000.0,
+    "packets_per_second": 400.0,
+    "average_packet_size": 1125.0,
+    "connection_count": 200.0,
+    "failed_connection_count": 15.0,
+    "failure_ratio": 0.075,
+    "syn_count": 100.0,
+    "rst_count": 3.0,
+    "syn_ratio": 0.125,
+    "unique_destination_ports": 30.0,
+    "unique_destination_ips": 10.0,
+    "connection_rate": 100.0,
+    "dns_query_rate": 0.0
+  },
+  "rule_matches": [
+    {
+      "rule_id": "IDS-001",
+      "name": "High Connection Rate",
+      "severity": "HIGH",
+      "description": "Connection rate exceeded the configured baseline.",
+      "feature": "connection_rate",
+      "operator": ">=",
+      "threshold": 25.0,
+      "enabled": true,
+      "observed_value": 100.0
+    },
+    {
+      "rule_id": "IDS-002",
+      "name": "Repeated Failed Connections",
+      "severity": "HIGH",
+      "description": "Repeated failed connection records require authentication and firewall-log review.",
+      "feature": "failed_connection_count",
+      "operator": ">=",
+      "threshold": 12.0,
+      "enabled": true,
+      "observed_value": 15.0
+    },
+    {
+      "rule_id": "IDS-003",
+      "name": "Multi-Port Probing-Like Pattern",
+      "severity": "HIGH",
+      "description": "One synthetic source contacted an unusually large number of destination ports.",
+      "feature": "unique_destination_ports",
+      "operator": ">=",
+      "threshold": 20.0,
+      "enabled": true,
+      "observed_value": 30.0
+    }
+  ],
+  "anomaly_score": 99.57,
+  "anomaly_details": {
+    "packets_per_second": {
+      "value": 400.0,
+      "z_score": 13.678,
+      "iqr_distance": 10.0,
+      "component": 100.0
+    },
+    "bytes_per_second": {
+      "value": 450000.0,
+      "z_score": 8.017,
+      "iqr_distance": 10.0,
+      "component": 100.0
+    },
+    "connection_rate": {
+      "value": 100.0,
+      "z_score": 4.797,
+      "iqr_distance": 10.0,
+      "component": 85.76
+    },
+    "failure_ratio": {
+      "value": 0.075,
+      "z_score": 75.0,
+      "iqr_distance": 10.0,
+      "component": 100.0
+    },
+    "unique_destination_ports": {
+      "value": 30.0,
+      "z_score": 580.0,
+      "iqr_distance": 10.0,
+      "component": 100.0
+    }
+  },
+  "ml": {
+    "model_name": "RandomForestClassifier",
+    "probability": 1.0,
+    "prediction": "SUSPICIOUS",
+    "threshold": 0.5
+  },
+  "alert": {
+    "alert_id": "ALT-E07AC4A1EF",
+    "flow_id": "PROOF-SUSPICIOUS-001",
+    "timestamp": "2026-09-29T17:34:45.130591+00:00",
+    "source_ip": "192.0.2.15",
+    "destination_ip": "198.51.100.20",
+    "protocol": "TCP",
+    "source_port": 51000,
+    "destination_port": 443,
+    "rule_id": "IDS-001",
+    "alert_type": "High Connection Rate",
+    "severity": "CRITICAL",
+    "risk_score": 93.07,
+    "description": "Connection rate exceeded the configured baseline.",
+    "status": "NEW",
+    "anomaly_score": 99.57,
+    "ml_score": 1.0,
+    "matched_rules": [
+      "IDS-001",
+      "IDS-002",
+      "IDS-003"
+    ],
+    "recommended_steps": [
+      "Review related network and application logs.",
+      "Confirm whether the source and destination are known assets.",
+      "Compare the activity with the historical baseline.",
+      "Review authorized firewall, authentication, and endpoint telemetry.",
+      "Determine whether the activity is expected before escalation."
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "dataset_records": 5000,
+  "train_records": 4000,
+  "test_records": 1000,
+  "class_balance": {
+    "normal": 3600,
+    "suspicious": 1400
+  },
+  "models": {
+    "logistic_regression": {
+      "accuracy": 0.936,
+      "precision": 0.965517,
+      "recall": 0.8,
+      "f1": 0.875,
+      "confusion_matrix": [
+        [
+          712,
+          8
+        ],
+        [
+          56,
+          224
+        ]
+      ],
+      "roc_auc": 0.945625
+    },
+    "random_forest": {
+      "accuracy": 0.966,
+      "precision": 0.992,
+      "recall": 0.885714,
+      "f1": 0.935849,
+      "confusion_matrix": [
+        [
+          718,
+          2
+        ],
+        [
+          32,
+          248
+        ]
+      ],
+      "roc_auc": 0.97277
+    },
+    "isolation_forest": {
+      "accuracy": 0.735,
+      "precision": 0.517647,
+      "recall": 0.785714,
+      "f1": 0.624113,
+      "confusion_matrix": [
+        [
+          515,
+          205
+        ],
+        [
+          60,
+          220
+        ]
+      ],
+      "roc_auc": 0.825903
+    }
+  },
+  "note": "Metrics were calculated from the deterministic held-out test split; they are not fabricated."
+}

@@ -1,0 +1,102 @@
+{
+  "items": [
+    {
+      "alert_id": "ALT-E07AC4A1EF",
+      "flow_id": "PROOF-SUSPICIOUS-001",
+      "rule_id": "IDS-001",
+      "alert_type": "High Connection Rate",
+      "severity": "CRITICAL",
+      "description": "Connection rate exceeded the configured baseline.",
+      "risk_score": 93.07,
+      "anomaly_score": 99.57,
+      "ml_score": 1.0,
+      "status": "NEW",
+      "source_ip": "192.0.2.15",
+      "destination_ip": "198.51.100.20",
+      "source_port": 51000,
+      "destination_port": 443,
+      "protocol": "TCP",
+      "matched_rules": [
+        "IDS-001",
+        "IDS-002",
+        "IDS-003"
+      ],
+      "recommended_steps": [
+        "Review related network and application logs.",
+        "Confirm whether the source and destination are known assets.",
+        "Compare the activity with the historical baseline.",
+        "Review authorized firewall, authentication, and endpoint telemetry.",
+        "Determine whether the activity is expected before escalation."
+      ],
+      "created_at": "2026-09-29T17:34:45.130591+00:00",
+      "updated_at": "2026-09-29T17:34:45.180095+00:00",
+      "investigation_timestamp": null,
+      "resolution_notes": null
+    },
+    {
+      "alert_id": "ALT-C55678767B",
+      "flow_id": "LIVE-D96A5573BD5E",
+      "rule_id": "IDS-005",
+      "alert_type": "Unusual Service-Port Activity",
+      "severity": "MEDIUM",
+      "description": "Traffic used a service port outside the documented allow-list for this simulation.",
+      "risk_score": 50.59,
+      "anomaly_score": 2.39,
+      "ml_score": 0.995833,
+      "status": "NEW",
+      "source_ip": "192.0.2.230",
+      "destination_ip": "203.0.113.80",
+      "source_port": 17743,
+      "destination_port": 4444,
+      "protocol": "TCP",
+      "matched_rules": [
+        "IDS-005"
+      ],
+      "recommended_steps": [
+        "Review related network and application logs.",
+        "Confirm whether the source and destination are known assets.",
+        "Compare the activity with the historical baseline.",
+        "Review authorized firewall, authentication, and endpoint telemetry.",
+        "Determine whether the activity is expected before escalation."
+      ],
+      "created_at": "2026-09-29T17:34:44.943144+00:00",
+      "updated_at": "2026-09-29T17:34:45.004688+00:00",
+      "investigation_timestamp": null,
+      "resolution_notes": null
+    },
+    {
+      "alert_id": "ALT-2B22D3EA9E",
+      "flow_id": "LIVE-C6E1EC6B771C",
+      "rule_id": "IDS-003",
+      "alert_type": "Multi-Port Probing-Like Pattern",
+      "severity": "CRITICAL",
+      "description": "One synthetic source contacted an unusually large number of destination ports.",
+      "risk_score": 80.97,
+      "anomaly_score": 64.57,
+      "ml_score": 1.0,
+      "status": "NEW",
+      "source_ip": "192.0.2.233",
+      "destination_ip": "198.51.100.74",
+      "source_port": 56277,
+      "destination_port": 696,
+      "protocol": "TCP",
+      "matched_rules": [
+        "IDS-003",
+        "IDS-005"
+      ],
+      "recommended_steps": [
+        "Review related network and application logs.",
+        "Confirm whether the source and destination are known assets.",
+        "Compare the activity with the historical baseline.",
+        "Review authorized firewall, authentication, and endpoint telemetry.",
+        "Determine whether the activity is expected before escalation."
+      ],
+      "created_at": "2026-09-29T17:34:44.736839+00:00",
+      "updated_at": "2026-09-29T17:34:44.788416+00:00",
+      "investigation_timestamp": null,
+      "resolution_notes": null
+    }
+  ],
+  "limit": 3,
+  "offset": 0
+}

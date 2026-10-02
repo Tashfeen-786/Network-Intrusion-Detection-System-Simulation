@@ -1,0 +1,65 @@
+{
+  "flow_id": "PROOF-NORMAL-001",
+  "classification": "NORMAL",
+  "severity": "INFO",
+  "risk_score": 4.74,
+  "features": {
+    "packet_count": 40.0,
+    "byte_count": 30000.0,
+    "duration": 5.0,
+    "bytes_per_second": 6000.0,
+    "packets_per_second": 8.0,
+    "average_packet_size": 750.0,
+    "connection_count": 3.0,
+    "failed_connection_count": 0.0,
+    "failure_ratio": 0.0,
+    "syn_count": 2.0,
+    "rst_count": 0.0,
+    "syn_ratio": 0.05,
+    "unique_destination_ports": 1.0,
+    "unique_destination_ips": 1.0,
+    "connection_rate": 0.6,
+    "dns_query_rate": 0.0
+  },
+  "rule_matches": [],
+  "anomaly_score": 1.97,
+  "anomaly_details": {
+    "packets_per_second": {
+      "value": 8.0,
+      "z_score": 0.13,
+      "iqr_distance": 0.0,
+      "component": 1.15
+    },
+    "bytes_per_second": {
+      "value": 6000.0,
+      "z_score": 0.223,
+      "iqr_distance": 0.0,
+      "component": 2.3
+    },
+    "connection_rate": {
+      "value": 0.6,
+      "z_score": 0.203,
+      "iqr_distance": 0.0,
+      "component": 1.73
+    },
+    "failure_ratio": {
+      "value": 0.0,
+      "z_score": 0.0,
+      "iqr_distance": 0.0,
+      "component": 0.0
+    },
+    "unique_destination_ports": {
+      "value": 1.0,
+      "z_score": 0.0,
+      "iqr_distance": 0.0,
+      "component": 0.0
+    }
+  },
+  "ml": {
+    "model_name": "RandomForestClassifier",
+    "probability": 0.1383,
+    "prediction": "NORMAL",
+    "threshold": 0.5
+  },
+  "alert": null
+}

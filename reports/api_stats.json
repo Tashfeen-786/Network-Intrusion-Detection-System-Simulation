@@ -1,0 +1,10 @@
+{
+  "total": 152,
+  "normal": 109,
+  "suspicious": 43,
+  "average_risk": 23.31,
+  "open_alerts": 42,
+  "critical_alerts": 22,
+  "total_alerts": 42,
+  "ml_enabled": true
+}
